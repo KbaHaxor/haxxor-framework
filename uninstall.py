@@ -16,7 +16,7 @@ else:
 if(os.path.exists(ipath)):
 	call("rm -r " + ipath, shell=True)
 else:
-	print colored("[!] Could not find %s", % ipath, "red")
+	print colored("[!] Could not find %s" % ipath, "red")
 	sys.exit(0)
 if(os.path.isfile(haxxor)):
 	call("rm " + haxxor, shell=True)
