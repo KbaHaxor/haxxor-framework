@@ -3,7 +3,7 @@ import os
 import sys
 import getpass
 from termcolor import colored
-
+from subprocess import call
 # VARIABLES #
 user = getpass.getuser()
 ipath = ("/usr/haxxor")
