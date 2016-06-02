@@ -2,7 +2,7 @@
 import os
 import sys
 import getpass
-import termcolor
+from termcolor import colored
 
 # VARIABLES #
 user = getpass.getuser()
