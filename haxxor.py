@@ -136,6 +136,8 @@ def haxxor_main():
 		elif(haxxor_input == '6'):
 			print colored("")
 		elif(haxxor_input == '7'):
+			print colored("[*] Stopping apache2", "yellow")
+			call("service apache2 stop", shell=True)
 			print colored("[*] Exiting", "red")
 			sys.exit(0)
 		else:
