@@ -59,15 +59,14 @@ def banner():
         print colored("------------------------------------", "blue")
         print colored("[ [{}] fuzzers  [{}] modules ]".format(list_fuzzers, list_modules), "red")
         print colored("[ [{}] scanners [{}] privesc ]".format(list_scanners, list_privesc), "red")
+	print colored("[1] fuzzers", "blue")
+	print colored("[2] modules", "blue")
+	print colored("[3] scanners", "blue")
+	print colored("[4] privesc", "blue")
+	print colored("[5] help", "blue")
+	print colored("[6] donate", "blue")	
+	print colored("[7] exit", "blue")
 banner()
-print colored("[1] fuzzers", "blue")
-print colored("[2] modules", "blue")
-print colored("[3] scanners", "blue")
-print colored("[4] privesc", "blue")
-print colored("[5] help", "blue")
-print colored("[6] donate", "blue")
-print colored("[7] exit", "blue")
-
 def main():
 	try:
 		def fuzzers():
@@ -224,6 +223,8 @@ def main():
 							else:
 								print colored("[!] Unknown command", "red")
 					elif(usefuzzer == '5'):
+						call("clear", shell=True)
+						banner()
 						break
 					else:
 						print colored("[!] Unknown option", "red")
