@@ -1,3 +1,5 @@
+# WARNING 
+DO NOT USE, WORKING ON BUGS AND FIXES FOR V.03 
 # haxxor-frramework
 Simple fuzzing and scanning tool with a few tricks up its' sleeve ;).
 ## How to use haxxor-framework
