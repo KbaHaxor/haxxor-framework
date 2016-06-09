@@ -1,1 +1,1 @@
-Fuzzers/Windows/browser
+Fuzzers/Windows/browser!
