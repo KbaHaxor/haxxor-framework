@@ -16,8 +16,7 @@ A special module will launched along with haxxor-framework called firefuzz. It i
 # Windows Version?
 That will come later on with, hopefully, help from the community
 # Progress
-Right now, haxxor-framework is just, well, a framework with no modules.
-Hopefully as a community we can make this tool great
+As of 7-9-16, haxxor-framework has had some major changes (v.02), but is still not done. Email modules that can be used to: pentestwizard@gmail.com (Python or a language that can be ported to python. Multi language support coming soon)
 # Donations and other stuff
 this tool is free, but donations (not right now, for when we get a functioning tool) are helpful and they will most likely go towards hiring help to make the tool greater
 the tool is also open source so send those merge request in for dis boi here
